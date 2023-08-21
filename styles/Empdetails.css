@@ -1,0 +1,673 @@
+.body{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1452px;
+    height: 725px;
+   background: #F7F7F7 0% 0% no-repeat padding-box;
+   opacity: 1;
+}
+.header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1452px;
+    height: 73px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image{
+    padding-top: 35px;
+    padding-left: 188px;
+    width: 50px;
+    height: 47px;
+   /*border: 1px solid #42515F;*/
+   opacity: 1;
+  }
+
+  .text{
+    padding-top: 13px;
+    padding-left: 0px;
+    width: 127px;
+    height: 27px;
+    float: left;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 17px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #82A70C;
+    text-transform: capitalize;
+  }
+
+  .title{
+    position:fixed;
+    top: 90px;
+   left: 192px;
+   width: 267px;
+   height: 37px;
+   text-align: left;
+   font: normal normal bold 18px/25px Roboto;
+   letter-spacing: 0px;
+   color: #42515F;
+   opacity: 1;
+  }
+  .searchButton{
+    position: fixed;
+    top: 110px;
+left: 1100px;
+width: 50px;
+height: 29px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 3px #f4efeff2;
+border-radius: 28px;
+opacity: 1;
+  }
+  .searchIcon{
+    position: fixed;
+    top: 114px;
+left: 1110px;
+width: 17px;
+height: 17px;
+transform: matrix(0.99, 0.12, -0.12, 0.99, 0, 0);
+background: #f9fbfc 0% 0% no-repeat padding-box;
+opacity: 1;
+  }
+
+  .addUserbutton{
+    position:fixed;
+    top: 110px;
+left: 1192px;
+width: 89px;
+height: 29px;
+/* UI Properties */
+background: #82A70C 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+  }
+  .deleteButton{
+    position: fixed;
+    left: 1192px;
+    width: 89px;
+    height: 29px;
+/* UI Properties */
+background: #658292 0% 0% no-repeat padding-box;
+opacity: 1
+  }
+
+  .buttonname{
+    position: fixed;
+    top: 100px;
+left: 1198px;
+width: 79px;
+height: 22px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px Roboto;
+letter-spacing: 0px;
+color: #c81111;
+opacity: 1;
+  }
+  .material-icons.md-48
+  { font-size: 20px;
+    opacity: 1;
+    color: #658292;
+  }
+
+  .material-mklkmicons{
+    font-size: 10px;
+    opacity: 1;
+    color: #658292;
+    position: fixed;
+    left: 1230px;
+    top: 215px;
+  }
+
+  .tableheader{
+    position: fixed;
+    top: 160px;
+    left: 192px;
+   width: 1099px;
+   height: 55px;
+  background: #42515F 0% 0% no-repeat padding-box;
+  border-radius: 3px 3px 0px 0px;
+   opacity: 1;
+  }
+
+  .tableentry1{
+    position: fixed;
+    top:215px;
+    left:192px;
+width: 1099px;
+height: 55px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E3E3E3;
+opacity: 1;
+  }
+
+  .tableentry2 {
+    position: fixed;
+    top: 260px;
+left: 192px;
+width: 1099px;
+height: 55px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E3E3E3;
+opacity: 1;
+  }
+  .tableentry3 {
+    position: fixed;
+    top: 315px;
+left: 192px;
+width: 1099px;
+height: 55px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E3E3E3;
+opacity: 1;
+  }
+  .tableentry4 {
+    position: fixed;
+    top: 370px;
+left: 192px;
+width: 1099px;
+height: 55px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E3E3E3;
+opacity: 1;
+  }
+  .tableentry{
+    position: fixed;
+    top: 425px;
+    width: 1100px;
+    left:0px;
+  }
+  .tableentrytype{
+    position: relative;
+left: 192px;
+width: 1099px;
+height: 55px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+
+border: 1px solid #E3E3E3;
+opacity: 1;
+  }
+
+  .name{
+    position: fixed;
+    top: 180px;
+left: 292px;
+width: 51px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+  }
+  .gender{
+    position: fixed;
+    top: 180px;
+left: 470px;
+width: 38px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+  }
+
+  .department{
+    position: fixed;
+    top: 180px;
+left: 602px;
+width: 51px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+  }
+
+  .salary{
+    position: fixed;
+    top: 180px;
+left: 802px;
+width: 45px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+  }
+
+.startDate{
+    position: fixed;
+    top: 180px;
+left: 995px;
+width: 45px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.actions{
+    position: fixed;
+    top: 180px;
+left: 1192px;
+width: 51px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+}
+.img1{
+  background: transparent url('../Assets/Screenshot (161).png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.name1{
+    position: fixed;
+    top: 225px;
+left: 197px;
+width: 245px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color:#3D3D3D;
+opacity: 1;
+  }
+  .name2 {
+    position: fixed;
+    top: 270px;
+left: 197px;
+width: 245px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color:#3D3D3D;
+opacity: 1;
+  }
+  .name3{
+    position: fixed;
+    top: 325px;
+left: 197px;
+width: 245px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color:#3D3D3D;
+opacity: 1;
+  }
+  .name4 {
+    position: fixed;
+    top: 380px;
+left: 197px;
+width: 245px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color:#3D3D3D;
+opacity: 1;
+  }
+  .gender1{
+    position: fixed;
+    top: 225px;
+left: 465px;
+width: 52px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+  .gender2{
+    position: fixed;
+    top: 270px;
+left: 465px;
+width: 52px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+  .gender3{
+    position: fixed;
+    top: 325px;
+left: 465px;
+width: 52px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+  .gender4{
+    position: fixed;
+    top: 380px;
+left: 465px;
+width: 52px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+
+  .department1{
+    position: fixed;
+    top: 225px;
+left: 602px;
+width: 120px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+  .department2{
+    position: fixed;
+    top: 270px;
+left: 602px;
+width: 120px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+  .department3{
+    position: fixed;
+    top: 325px;
+left: 602px;
+width: 120px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+  .department4{
+    position: fixed;
+    top: 380px;
+left: 602px;
+width: 120px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+
+  .salary1{
+    position: fixed;
+    top: 225px;
+left: 802px;
+width: 45px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+  .salary2{
+    position: fixed;
+    top: 270px;
+left: 802px;
+width: 45px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+  .salary3{
+    position: fixed;
+    top: 325px;
+left: 802px;
+width: 45px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+  .salary4{
+    position: fixed;
+    top: 380px;
+left: 802px;
+width: 45px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+  }
+
+.startDate1{
+    position: fixed;
+    top: 225px;
+left: 995px;
+width: 105px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+.startDate2{
+    position: fixed;
+    top: 270px;
+left: 995px;
+width: 105px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+.startDate3{
+    position: fixed;
+    top: 325px;
+left: 995px;
+width: 105px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+.startDate4{
+    position: fixed;
+    top: 380px;
+left: 995px;
+width: 105px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+
+.actions1{
+    position: fixed;
+    top: 225px;
+left: 1192px;
+width: 51px;
+height: 24px;
+text-align: left;
+font: normal normal normal 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+.actions2{
+    position: fixed;
+    top: 270px;
+left: 1192px;
+width: 51px;
+height: 24px;
+text-align: left;
+font: normal normal normal 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;  
+}
+.actions3{
+    position: fixed;
+    top: 315px;
+left: 1192px;
+width: 51px;
+height: 24px;
+text-align: left;
+font: normal normal normal 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;  
+}
+.actions4{
+    position: fixed;
+    top: 380px;
+left: 1192px;
+width: 51px;
+height: 24px;
+text-align: left;
+font: normal normal normal 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;  
+}
+
+.nameform{
+  position: fixed;
+  padding-top: 12px;
+left: 197px;
+width: 245px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color:#3D3D3D;
+opacity: 1;
+}
+.genderform{
+  position: fixed;
+  padding-top: 12px;
+left: 465px;
+width: 52px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+.departmentform{
+  position: fixed;
+  padding-top: 12px;
+left: 602px;
+width: 120px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+.salaryform{
+  position: fixed;
+  padding-top: 12px;
+left: 802px;
+width: 45px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+
+.startDateform{
+  position: fixed;
+  padding-top: 12px;
+left: 995px;
+width: 105px;
+height: 24px;
+text-align: left;
+font: normal normal medium 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+
+.actionsform{
+  position: fixed;
+  padding-top: 12px;
+left: 1192px;
+width: 51px;
+height: 24px;
+text-align: left;
+font: normal normal normal 16px/21px Roboto;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;  
+}
+
+.deletingButton{
+  position: relative;left: 998px; padding: 0;border: none;background: none;
+  
+}
+.editingbutton{
+  position: relative;left: 1012px; padding: 0;border: none;background: none;padding-top: 12px;
+}
+
+.deletingButton:hover{
+  
+  filter: brightness(50%);
+ }
+
+ .editingbutton:hover{
+  
+  filter: brightness(50%);
+ }
+

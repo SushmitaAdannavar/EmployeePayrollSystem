@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/Empform.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/scriptdetails.js"></script>
+    <title>Document</title>
+</head>
+<body class="body">
+  <header class="header">
+      <div class="image"><img src="../Assets/Screenshot 2023-08-15 102447.jpg" alt="logo" width=40
+        height=37></div>
+      <div class="text">
+        <div class="text1">EMPLOYEE</div>
+        <div class="text2">PAYROLL</div>
+   </header>
+     <!-- <form class="form">  -->
+      <h3 class="formheader">Employee Payroll Form</h3>
+
+       <div >
+        <div class="labels1">Name</div> <div> <input type="text" id="name" class="textfieldsname"></div>
+       </div>
+       <br><br>
+
+       <div>
+           <div class="labels2"><label >Profile Image</label></div>
+            <input type="radio" name="Profileimage" value="../Assets/Screenshot (160).png" class="Profileimager1"> <img src="../Assets/Screenshot (160).png" width=25 height=25 class="pf1">
+           <input type="radio" name="Profileimage" value="../Assets/Screenshot (161).png" class="Profileimager2"> <img src="../Assets/Screenshot (161).png" width=25 height=25 class="pf2">
+           <input type="radio" name="Profileimage" value="../Assets/Screenshot (160).png" class="Profileimager3"> <img src="../Assets/Screenshot (160).png" width=25 height=25 class="pf3">
+           <input type="radio" name="Profileimage" value="../Assets/Screenshot (161).png" class="Profileimager4"><img src="../Assets/Screenshot (161).png" width=25 height=25 class="pf4">
+       </div>
+       <br><br>
+
+       <div>
+         <div><label class="label3">Gender</label></div>
+         <div class="genderr1"><input type="radio" name="Gender" value="Male">Male</div> 
+         <div class="genderr2"><input type="radio" name="Gender" value="Female">Female</div>
+       </div>
+       <br><br>
+
+       <div >
+        <div><label class="label4">Department</label></div>
+        <div class="checkbox"><input type="checkbox" name="Department" value="HR">HR <input type="checkbox" name="Department" value="Sales">Sales 
+          <input type="checkbox" name="Department" value="Finance">Finance <input type="checkbox" name="Department" value="Engineer">Engineer
+           <input type="checkbox" name="Department" value="Others">Others </div>
+       </div>
+       <br><br>
+
+       <div >
+        <div><label class="label5">Salary</label></div>
+        <div ><select type="text" name="Salary" id="salary" list="Salaries" class="salaries">
+          <datalist id="Salaries">
+            <option>25,000</option>
+            <option>30,000</option>
+            <option>20,000</option>
+          </datalist></select></div>
+       </div>
+       <br><br>
+
+       <div >
+       <div><label class="label6">StartDate</label></div>
+       <div><select type="" name="Date" id="date" list="dates" class="Date">
+        <datalist id="dates">
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+        </datalist></select></div>
+       <div><select type="text" name="Month" id="month" list="months" class="Month">
+        <datalist id="months">
+          <option>Jan</option>
+          <option>Feb</option>
+          <option>Mar</option>
+        </datalist></select></div>
+       <div><select type="text" name="Year" id="year" list="years" class="Year">
+        <datalist id="years">
+          <option>2021</option>
+          <option>2022</option>
+          <option>2023</option>
+        </datalist></select></div>
+       </div>
+       <br><br>
+
+       <div >
+        <div><label class="label7">Notes</label></div>
+        <div><input type="text" name="Notes" id="notes" class="notes"></div>
+       </div>
+       <br><br>
+
+      <div>
+        <button class="buttonssubmit" type="submit" id="myBtn" onclick="addEmployee()">Submit</button>       
+      </div>
+
+      <div >
+       <button class="buttonsreset" type="reset">Reset</button>       
+      </div>
+
+      <div >
+        <button class="buttonscancel" type="button">Cancel</button>       
+       </div>   
+       <div>
+        <button class="buttonscancel" type="button" id="myUpdate" onclick="updateEmployee()">Update</button>
+       </div>  
+      
+     <!-- </form> -->
+
+</body>
+</html>
