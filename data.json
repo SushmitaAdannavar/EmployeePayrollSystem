@@ -1,14 +1,14 @@
 {
   "employee": [
     {
-      "id": 1,
       "Name": "Sushmita",
       "profileImage": "../Assets/Screenshot (160).png",
       "Gender": "Female",
-      "Department": "HR Sales",
-      "Salary": "25,000",
+      "Department": "Sales Finance",
+      "Salary": "30,000",
       "StartDate": "01 Jan 2021",
-      "Notes": "This is a note"
+      "Notes": "This is a note",
+      "id": 1
     },
     {
       "Name": "Pranit",

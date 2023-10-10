@@ -2,8 +2,6 @@
 
 //$("#myBtn").click(function () {
 function addEmployee() {
-    event.defaultPrevented
-
     var Name = $("#name").val();
     console.log(Name);
 
@@ -67,8 +65,9 @@ if (location.hash === '#execute') {
         dataType: 'json',
         success: function (result, textStatus, xhr) {
             $("#name").val(result.Name);
-            $("input[name='Profileimage']:checked").val(result.profileImage);
-            $("input[name='Gender']:checked").val(result.Gender);
+            
+            $('input[name=Profileimage][value='+result.profileImage+']').prop('checked',true);
+            $('input[name=Gender][value='+result.Gender+']').prop('checked',true);
             $.each($("input[name='Department']:checked"), function () {
                 arr.push($(this).val(result.Department));
             });
